@@ -1,0 +1,12 @@
+prefix=C:/Users/abz/OneDrive/Desktop/machine_learning/venv/Library
+exec_prefix=C:/Users/abz/OneDrive/Desktop/machine_learning/venv/Library
+libdir=C:/Users/abz/OneDrive/Desktop/machine_learning/venv/Library/lib
+includedir=C:/Users/abz/OneDrive/Desktop/machine_learning/venv/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
